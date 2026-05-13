@@ -1,0 +1,14 @@
+site_name: Bases de Dades - DER
+
+theme:
+  name: readthedocs
+
+nav:
+  - Inici: index.md
+  - Conceptes bàsics: conceptes.md
+  - Entitats i atributs: entitats.md
+  - Relacions: relacions.md
+  - Exemple pràctic: exemple.md
+
+extra_css:
+  - css/extra.css
