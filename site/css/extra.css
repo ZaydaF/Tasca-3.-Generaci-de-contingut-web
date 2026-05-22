@@ -16,3 +16,21 @@ img {
 body {
     font-size: 17px;
 }
+
+.md-typeset h1 {
+    color: #00897b;
+}
+
+.md-typeset h2 {
+    border-bottom: 2px solid #26a69a;
+    padding-bottom: 4px;
+}
+
+.md-typeset img {
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.2);
+}
+
+.md-footer {
+    background-color: #004d40;
+}

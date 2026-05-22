@@ -1,7 +1,27 @@
 site_name: Bases de Dades - DER
 
 theme:
-  name: readthedocs
+  name: material
+  language: ca
+  palette:
+    - scheme: default
+      primary: teal
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Canvia a mode oscur
+    - scheme: slate
+      primary: teal
+      accent: lime
+      toggle:
+        icon: material/weather-sunny
+        name: Canvia a mode clar
+  features:
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.suggest
+    - content.code.copy
 
 nav:
   - Inici: index.md
@@ -9,6 +29,20 @@ nav:
   - Entitats i atributs: entitats.md
   - Relacions: relacions.md
   - Exemple pràctic: exemple.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
 
 extra_css:
   - css/extra.css
