@@ -9,10 +9,6 @@
       
       
       
-        <link rel="prev" href="../entitats/">
-      
-      
-        <link rel="next" href="../exemple/">
       
       
         
@@ -23,7 +19,7 @@
     
     
       
-        <title>Relacions - Bases de Dades - DER</title>
+        <title>Print Site - Bases de Dades - DER</title>
       
     
     
@@ -55,13 +51,19 @@
     
       <link rel="stylesheet" href="../css/extra.css">
     
-    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("/",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
-  </head>
+  
+        <script type="text/javascript">
+        document.addEventListener('DOMContentLoaded', function () {
+            remove_material_navigation();remove_mkdocs_theme_navigation();generate_toc();
+        })
+        </script>
+        </head>
   
   
     
@@ -80,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#relacions" class="md-skip">
+        <a href="#index" class="md-skip">
           Salta el contingut
         </a>
       
@@ -116,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Relacions
+              Print Site
             
           </span>
         </div>
@@ -318,37 +320,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    Relacions
-  
-
-    
-  </span>
-  
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../relacions/" class="md-nav__link">
         
   
   
@@ -364,98 +339,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Taula de continguts">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Taula de continguts
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#relacions-entre-entitats" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Relacions entre entitats
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#tipus-de-cardinalitat" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Tipus de cardinalitat
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="Tipus de cardinalitat">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#11" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1:1
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#1n" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1:N
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#nm" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        N:M
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#diagrama-mermaid" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Diagrama Mermaid
-      
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -504,8 +387,6 @@
   
   
   
-    
-  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -514,10 +395,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#relacions-entre-entitats" class="md-nav__link">
+  <a href="#index" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Relacions entre entitats
+        1 Inici
       
     </span>
   </a>
@@ -525,60 +406,43 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#tipus-de-cardinalitat" class="md-nav__link">
+  <a href="#conceptes" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Tipus de cardinalitat
+        2 Conceptes bàsics
       
     </span>
   </a>
-  
-    <nav class="md-nav" aria-label="Tipus de cardinalitat">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#11" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1:1
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#1n" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        1:N
-      
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#nm" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        N:M
-      
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#diagrama-mermaid" class="md-nav__link">
+  <a href="#entitats" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Diagrama Mermaid
+        3 Entitats i atributs
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#relacions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4 Relacions
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exemple" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5 Exemple pràctic
       
     </span>
   </a>
@@ -602,17 +466,81 @@
 
 
 
-<h1 id="relacions">Relacions</h1>
-<h2 id="relacions-entre-entitats">Relacions entre entitats</h2>
+<div id="print-site-page" class="print-site-enumerate-headings print-site-enumerate-figures">
+        <section class="print-page">
+            <div id="print-page-toc" data-toc-depth="3">
+                <nav role='navigation' class='print-page-toc-nav'>
+                <h1 class='print-page-toc-title'>Table of Contents</h1>
+                </nav>
+            </div>
+        </section>
+        <section class="print-page" id="index" heading-number="1"><h1 id="index-bases-de-dades">Bases de Dades</h1>
+<h2 id="index-diagrames-entitat-relacio-der">Diagrames Entitat Relació (DER)</h2>
+<p>Esta web conté una introducció als diagrames Entitat Relació utilitzats en el disseny de bases de dades.</p>
+<p>Els DER permeten representar visualment les entitats, atributs i relacions d’un sistema d’informació.</p>
+<p><img alt="DER" src="../img/der.jpg" /></p>
+<h2 id="index-continguts">Continguts</h2>
+<ul>
+<li>Conceptes bàsics</li>
+<li>Entitats i atributs</li>
+<li>Relacions i cardinalitat</li>
+<li>Exemple pràctic</li>
+</ul></section><section class="print-page" id="conceptes" heading-number="2"><h1 id="conceptes-conceptes-basics">Conceptes bàsics</h1>
+<h2 id="conceptes-que-es-un-der">Què és un DER?</h2>
+<p>Un diagrama Entitat Relació és una representació gràfica utilitzada per al disseny conceptual de bases de dades.</p>
+<h2 id="conceptes-elements-principals">Elements principals</h2>
+<ul>
+<li>Entitats</li>
+<li>Atributs</li>
+<li>Relacions</li>
+<li>Cardinalitats</li>
+</ul>
+<h2 id="conceptes-avantatges">Avantatges</h2>
+<ul>
+<li>Facilita el disseny de bases de dades</li>
+<li>Permet detectar errors abans de la implementació</li>
+<li>Millora la comprensió del sistema</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Què és un DER?</p>
+<p>Un diagrama Entitat-Relació permet representar visualment les dades d’un sistema abans de crear la base de dades.</p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Important</p>
+<p>No s’ha de començar a crear taules sense haver analitzat abans les entitats, atributs i relacions.</p>
+</div>
+<details class="question" open="open">
+<summary>Pregunta de repàs</summary>
+<p>Quina diferència hi ha entre una entitat i un atribut?</p>
+</details>
+<details class="success">
+<summary>Resposta</summary>
+<p>Una entitat és un objecte o concepte del sistema; un atribut és una característica d’aquesta entitat.</p>
+</details></section><section class="print-page" id="entitats" heading-number="3"><h1 id="entitats-entitats-i-atributs">Entitats i atributs</h1>
+<h2 id="entitats-entitats">Entitats</h2>
+<p>Les entitats representen objectes o conceptes del món real.</p>
+<p>Exemples:
+- Alumne
+- Professor
+- Curs</p>
+<h2 id="entitats-atributs">Atributs</h2>
+<p>Els atributs descriuen característiques de les entitats.</p>
+<p>Exemples:
+- Nom
+- DNI
+- Telèfon</p>
+<h2 id="entitats-claus-primaries">Claus primàries</h2>
+<p>Cada entitat ha de tindre un atribut identificador únic.</p></section><section class="print-page" id="relacions" heading-number="4"><h1 id="relacions-relacions">Relacions</h1>
+<h2 id="relacions-relacions-entre-entitats">Relacions entre entitats</h2>
 <p>Les relacions indiquen com interactuen les entitats.</p>
-<h2 id="tipus-de-cardinalitat">Tipus de cardinalitat</h2>
-<h3 id="11">1:1</h3>
+<h2 id="relacions-tipus-de-cardinalitat">Tipus de cardinalitat</h2>
+<h3 id="relacions-11">1:1</h3>
 <p>Una entitat es relaciona amb una única altra entitat.</p>
-<h3 id="1n">1:N</h3>
+<h3 id="relacions-1n">1:N</h3>
 <p>Una entitat es relaciona amb múltiples entitats.</p>
-<h3 id="nm">N:M</h3>
+<h3 id="relacions-nm">N:M</h3>
 <p>Múltiples entitats es relacionen entre si.</p>
-<h2 id="diagrama-mermaid">Diagrama Mermaid</h2>
+<h2 id="relacions-diagrama-mermaid">Diagrama Mermaid</h2>
 <pre class="mermaid"><code>erDiagram
     ESTUDIANT ||--o{ INSCRIPCIO : realitza
     CURS ||--o{ INSCRIPCIO : conte
@@ -634,7 +562,80 @@
         int id_professor
         string nom
         string especialitat
-    }</code></pre>
+    }</code></pre></section><section class="print-page" id="exemple" heading-number="5"><h1 id="exemple-exemple-practic">Exemple pràctic</h1>
+<h2 id="exemple-academia-de-cursos">Acadèmia de cursos</h2>
+<p>Exemple d’un sistema format per:</p>
+<ul>
+<li>Estudiants</li>
+<li>Professors</li>
+<li>Cursos</li>
+</ul>
+<h2 id="exemple-relacions">Relacions</h2>
+<ul>
+<li>Un professor imparteix diversos cursos.</li>
+<li>Un estudiant pot inscriure’s en diversos cursos.</li>
+</ul>
+<p><img alt="DER" src="../exemple/img/der.jpg" /></p>
+<h2 id="exemple-exemple-de-transformacio-a-sql">Exemple de transformació a SQL</h2>
+<div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"> 1</span>
+<span class="normal"> 2</span>
+<span class="normal"> 3</span>
+<span class="normal"> 4</span>
+<span class="normal"> 5</span>
+<span class="normal"> 6</span>
+<span class="normal"> 7</span>
+<span class="normal"> 8</span>
+<span class="normal"> 9</span>
+<span class="normal">10</span></pre></div></td><td class="code"><div><pre><span></span><code><span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="n">estudiants</span><span class="w"> </span><span class="p">(</span>
+<span class="w">    </span><span class="n">id_estudiant</span><span class="w"> </span><span class="nb">INT</span><span class="w"> </span><span class="k">PRIMARY</span><span class="w"> </span><span class="k">KEY</span><span class="p">,</span>
+<span class="w">    </span><span class="n">nom</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">50</span><span class="p">)</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span><span class="p">,</span>
+<span class="w">    </span><span class="n">email</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span><span class="w"> </span><span class="k">UNIQUE</span>
+<span class="p">);</span>
+
+<span class="k">CREATE</span><span class="w"> </span><span class="k">TABLE</span><span class="w"> </span><span class="n">cursos</span><span class="w"> </span><span class="p">(</span>
+<span class="w">    </span><span class="n">id_curs</span><span class="w"> </span><span class="nb">INT</span><span class="w"> </span><span class="k">PRIMARY</span><span class="w"> </span><span class="k">KEY</span><span class="p">,</span>
+<span class="w">    </span><span class="n">nom</span><span class="w"> </span><span class="nb">VARCHAR</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span><span class="w"> </span><span class="k">NOT</span><span class="w"> </span><span class="k">NULL</span>
+<span class="p">);</span>
+</code></pre></div></td></tr></table></div></section></div><style>.print-site-enumerate-headings #index > h1:before { content: '1 ' }
+
+                .print-site-enumerate-headings #index h2:before { content: '1.' counter(counter-index-2) ' ' }
+                .print-site-enumerate-headings #index h2 {  counter-reset: counter-index-3 ;  counter-increment: counter-index-2 }
+            
+                .print-site-enumerate-headings #index h3:before { content: '1.' counter(counter-index-2) '.' counter(counter-index-3) ' ' }
+                .print-site-enumerate-headings #index h3 {  counter-increment: counter-index-3 }
+            
+.print-site-enumerate-headings #conceptes > h1:before { content: '2 ' }
+
+                .print-site-enumerate-headings #conceptes h2:before { content: '2.' counter(counter-conceptes-2) ' ' }
+                .print-site-enumerate-headings #conceptes h2 {  counter-reset: counter-conceptes-3 ;  counter-increment: counter-conceptes-2 }
+            
+                .print-site-enumerate-headings #conceptes h3:before { content: '2.' counter(counter-conceptes-2) '.' counter(counter-conceptes-3) ' ' }
+                .print-site-enumerate-headings #conceptes h3 {  counter-increment: counter-conceptes-3 }
+            
+.print-site-enumerate-headings #entitats > h1:before { content: '3 ' }
+
+                .print-site-enumerate-headings #entitats h2:before { content: '3.' counter(counter-entitats-2) ' ' }
+                .print-site-enumerate-headings #entitats h2 {  counter-reset: counter-entitats-3 ;  counter-increment: counter-entitats-2 }
+            
+                .print-site-enumerate-headings #entitats h3:before { content: '3.' counter(counter-entitats-2) '.' counter(counter-entitats-3) ' ' }
+                .print-site-enumerate-headings #entitats h3 {  counter-increment: counter-entitats-3 }
+            
+.print-site-enumerate-headings #relacions > h1:before { content: '4 ' }
+
+                .print-site-enumerate-headings #relacions h2:before { content: '4.' counter(counter-relacions-2) ' ' }
+                .print-site-enumerate-headings #relacions h2 {  counter-reset: counter-relacions-3 ;  counter-increment: counter-relacions-2 }
+            
+                .print-site-enumerate-headings #relacions h3:before { content: '4.' counter(counter-relacions-2) '.' counter(counter-relacions-3) ' ' }
+                .print-site-enumerate-headings #relacions h3 {  counter-increment: counter-relacions-3 }
+            
+.print-site-enumerate-headings #exemple > h1:before { content: '5 ' }
+
+                .print-site-enumerate-headings #exemple h2:before { content: '5.' counter(counter-exemple-2) ' ' }
+                .print-site-enumerate-headings #exemple h2 {  counter-reset: counter-exemple-3 ;  counter-increment: counter-exemple-2 }
+            
+                .print-site-enumerate-headings #exemple h3:before { content: '5.' counter(counter-exemple-2) '.' counter(counter-exemple-3) ' ' }
+                .print-site-enumerate-headings #exemple h3 {  counter-increment: counter-exemple-3 }
+            </style>
 
 
 
@@ -690,7 +691,7 @@
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.sections", "navigation.top", "search.highlight", "search.suggest", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiat al porta-retalls", "clipboard.copy": "C\u00f2pia al porta-retalls", "search.result.more.one": "1 m\u00e9s en aquesta p\u00e0gina", "search.result.more.other": "# m\u00e9s en aquesta p\u00e0gina", "search.result.none": "Cap document coincideix", "search.result.one": "1 document coincident", "search.result.other": "# documents coincidents", "search.result.placeholder": "Escriu per a comen\u00e7ar a cercar", "search.result.term.missing": "Desaparegut", "select.version": "Selecciona la versi\u00f3"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "/", "features": ["navigation.sections", "navigation.top", "search.highlight", "search.suggest", "content.code.copy"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiat al porta-retalls", "clipboard.copy": "C\u00f2pia al porta-retalls", "search.result.more.one": "1 m\u00e9s en aquesta p\u00e0gina", "search.result.more.other": "# m\u00e9s en aquesta p\u00e0gina", "search.result.none": "Cap document coincideix", "search.result.one": "1 document coincident", "search.result.other": "# documents coincidents", "search.result.placeholder": "Escriu per a comen\u00e7ar a cercar", "search.result.term.missing": "Desaparegut", "select.version": "Selecciona la versi\u00f3"}, "version": null}</script>
     
     
       <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
